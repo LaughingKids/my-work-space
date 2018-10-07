@@ -1,0 +1,31 @@
+{
+  "name": "my-work-space",
+  "version": "1.0.0",
+  "description": "Self learning project for ts-redux-ssr",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript",
+    "redux",
+    "react",
+    "ssr",
+    "todos"
+  ],
+  "author": "LaughingKids Tech",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.1.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
