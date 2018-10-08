@@ -1,41 +1,51 @@
 {
-  "name": "my-work-space",
-  "version": "1.0.0",
-  "description": "Self learning project for ts-redux-ssr",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "typescript",
-    "redux",
-    "react",
-    "ssr",
-    "todos"
-  ],
-  "author": "LaughingKids Tech",
-  "license": "ISC",
-  "dependencies": {
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2",
-    "react-redux": "^5.0.7",
-    "react-router": "^4.3.1",
-    "react-router-dom": "^4.3.1",
-    "redux": "^4.0.0"
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.1.2",
-    "@babel/core": "^7.1.2",
-    "@babel/preset-env": "^7.1.0",
-    "@babel/preset-react": "^7.0.0",
-    "babel-jest": "^23.6.0",
-    "babel-loader": "^8.0.4",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
-    "jest": "^23.6.0",
-    "react-test-renderer": "^16.5.2",
-    "typescript": "^3.1.1",
-    "webpack": "^4.20.2",
-    "webpack-cli": "^3.1.2"
-  }
+    "name": "my-work-space",
+    "version": "1.0.0",
+    "description": "Self learning project for ts-redux-ssr",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "precommit": "npm run prettier",
+        "prettier": "prettier --config ./config/compiler/.prettierrc --write \"*/**\" --ignore-path ./config/compiler/.prettierignore"
+    },
+    "keywords": [
+        "typescript",
+        "redux",
+        "react",
+        "ssr",
+        "todos"
+    ],
+    "author": "LaughingKids Tech",
+    "license": "ISC",
+    "dependencies": {
+        "react": "^16.5.2",
+        "react-dom": "^16.5.2",
+        "react-redux": "^5.0.7",
+        "react-router": "^4.3.1",
+        "react-router-dom": "^4.3.1",
+        "redux": "^4.0.0"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.1.2",
+        "@babel/core": "^7.1.2",
+        "@babel/preset-env": "^7.1.0",
+        "@babel/preset-react": "^7.0.0",
+        "babel-jest": "^23.6.0",
+        "babel-loader": "^8.0.4",
+        "babel-preset-env": "^1.7.0",
+        "babel-preset-react": "^6.24.1",
+        "eslint": "5.6.1",
+        "eslint-config-prettier": "3.1.0",
+        "eslint-plugin-prettier": "3.0.0",
+        "husky": "1.1.1",
+        "jest": "^23.6.0",
+        "lint-staged": "7.3.0",
+        "prettier": "1.14.3",
+        "prettier-loader": "^2.1.1",
+        "pretty-quick": "^1.7.0",
+        "react-test-renderer": "^16.5.2",
+        "typescript": "^3.1.1",
+        "webpack": "^4.20.2",
+        "webpack-cli": "^3.1.2"
+    }
 }
