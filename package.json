@@ -4,7 +4,7 @@
     "description": "Self learning project for ts-redux-ssr",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "webpack --config ./config/webpack/webpack.dev.config.js --mode=development",
         "precommit": "npm run prettier",
         "prettier": "prettier --config ./config/compiler/.prettierrc --write \"*/**\" --ignore-path ./config/compiler/.prettierignore"
     },
@@ -30,6 +30,7 @@
         "@babel/core": "^7.1.2",
         "@babel/preset-env": "^7.1.0",
         "@babel/preset-react": "^7.0.0",
+        "@babel/preset-typescript": "^7.1.0",
         "babel-jest": "^23.6.0",
         "babel-loader": "^8.0.4",
         "babel-preset-env": "^1.7.0",
